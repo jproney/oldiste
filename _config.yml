@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "James P Roney"
   avatar : "/assets/images/me.jpg"
-  bio    : "Student interested in CS, Statistics, Biology, and other cool things. Harvard 2022."
+  bio    : "Student interested in CS, Statistics, Biology, and other cool things. Harvard Class of 2022."
   location: "Santa Barbara, CA"
   links:
     - label: "jamesroney@college.harvard.edu"
