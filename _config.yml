@@ -17,8 +17,7 @@ title: James P Roney
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of James Peter Roney.
-twitter_username: username
-github_username: username
+github_username: jproney
 minimal_mistakes_skin: default
 search: false
 
@@ -57,18 +56,19 @@ plugins:
 
 author:
   name   : "James P Roney"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/me.jpg"
   bio    : "Student interested in CS, Statistics, Biology, and other cool things. Harvard 2022."
+  location: "Santa Barbara, CA"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "GitHub"
+    - label: "jamesroney@college.harvard.edu"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jamesroney@college.harvard.edu"
+    - label: "jproney"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/jproney"
+    - label: "jproney"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/" 
 
 footer:
 
