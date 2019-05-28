@@ -23,3 +23,4 @@ Below is a list of particularly interesting classes I've taken at Harvard and el
     Harvard University <br>
     Fall 2018</span>
 </div>
+
