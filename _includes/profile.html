@@ -1,23 +1,16 @@
-<div>
-    <li>
-      <a href="mailto:{{ author.email }}">
-        <meta itemprop="email" content="{{ author.email }}" />
-        <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
-      </a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
-      </a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
-      </a>
-    </li>
+<div class="containter">
+    <div class="row">
+          <a href="mailto:{{ author.email }}">
+             <meta itemprop="email" content="{{ author.email }}" />
+             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+           </a>
+         </li>
+    </div>
+    <div class="row">
+          <a href="mailto:{{ author.email }}">
+             <meta itemprop="email" content="{{ author.email }}" />
+             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+           </a>
+         </li>
+    </div>
 </div>
