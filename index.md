@@ -8,7 +8,7 @@ Hello, my name is James Roney. I'm from Santa Barbara, California, and I'm curre
 # Education:
 
 <div style="background-color:rgba(0, 0, 0, 0.1); padding: 10px 20px;">
-     <b> Harvard Univseristy</b> <br>
+     <b> Harvard Univserity</b> <br>
      <span style="font-size:medium;"> Computer Science and Statisitcs. GPA: 4.00/4.00<br>
      August 2018 - June 2022</span>
  </div>
