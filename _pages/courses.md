@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /courses/
+permalink: /courses
 title: "Courses"
 ---
 
