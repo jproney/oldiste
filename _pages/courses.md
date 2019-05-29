@@ -1,26 +1,18 @@
 ---
-permalink: /courses/
-title: "Courses"
+layout: default
+permalink: /courses
+title: courses
 ---
 
-Below is a list of particularly interesting classes I've taken at Harvard and elsewhere.
-
-<div style="background-color:rgba(0, 0, 0, 0.1); padding: 10px 20px;"> 
-    <b><i> CS 124: Data Structures and Algorithms </i></b> <br>
-    <span style="font-size:18px;"> Professor Jelani Nelson, 
-    Harvard University <br>
-    Spring 2019</span>
-</div>
-<div style="padding: 20px 20px;"> 
-    <b><i> STAT 111: Statistical Inference </i></b> <br>
-    <span style="font-size:18px;"> Professor Joseph Blitzstein, 
-    Harvard University <br>
-    Spring 2019</span>
-</div>
-<div style="background-color:rgba(0, 0, 0, 0.1); padding: 20px 20px;"> 
-    <b><i> STAT 110: Introduction to Probability </i></b> <br>
-    <span style="font-size:18px;"> Professor Joseph Blitzstein, 
-    Harvard University <br>
-    Fall 2018</span>
-</div>
-
+<br>
+# Coursework
+## Spring 2019
+{% assign data = {{site.data.courses | where:"line2","Spring 2019"}} %}
+{% include list.html%}
+## Fall 2018
+{% assign data = {{site.data.courses | where:"line2","Fall 2018"}} %}
+{% include list.html%}
+## Relevant Pre-Harvard Coursework
+{% assign data = {{site.data.courses | where:"nonH","true"}} %}
+{% include list.html%}
+<br>

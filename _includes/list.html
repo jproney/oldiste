@@ -1,0 +1,17 @@
+{% assign alpha = "0" %}
+<div class="container">
+{% for item in data %}
+    {%if alpha == "0"%}
+        {%assign alpha = ".1"%}
+    {%else%} 
+        {%assign alpha = "0"%}
+    {%endif%}
+
+<div style="background-color:rgba(0, 0, 0, {{alpha}}); padding: 10px 20px;">
+    <b> {{item.name}}</b> <br>
+    <span style="font-size:medium;"> {{item.line1}}<br>
+     {{item.line2}}<br></span>
+</div>
+{% endfor %}
+</div>
+
