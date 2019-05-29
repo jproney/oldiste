@@ -7,10 +7,10 @@
         {%assign alpha = "0"%}
     {%endif%}
 
-<div class="row" style="background-color:rgba(0, 0, 0, {{alpha}}); padding: 10px 20px;">
+<div style="background-color:rgba(0, 0, 0, {{alpha}}); padding: 10px 20px;">
     <b> {{item.name}}</b> <br>
-    <span style="font-size:medium;"> {{item.instructor}}<br>
-     {{item.term}}</span>
+    {{item.instructor}}<br>
+    {{item.term}}
 </div>
 {% endfor %}
 </div>

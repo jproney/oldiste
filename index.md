@@ -16,7 +16,17 @@ permalink: /
 
 # Education:
 
-{%include edulist.html%}
+{%assign data = site.data.education%}
+{%include list.html%}
  
+<br>
+# Experience:
 
+{%assign data = site.data.experience%}
+{%include list.html%}
 
+<br>
+# Selected Honors:
+
+{%assign data = site.data.honors%}
+{%include list.html%}
