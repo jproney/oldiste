@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /courses
-title: "Courses"
+title: courses
 ---
 
 Below is a list of particularly interesting classes I've taken at Harvard and elsewhere.
