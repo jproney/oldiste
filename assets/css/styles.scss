@@ -21,3 +21,27 @@
 img {
   border-radius: 65%;
 }
+
+h1 {
+  /* Never get smaller than this */
+  font-size: 20px;
+}
+
+@media (min-width:600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:800px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:1000px) {
+  h1 {
+    /* Never get larger than this */
+    font-size: 30px;
+  }
+}

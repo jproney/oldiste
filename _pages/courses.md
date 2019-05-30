@@ -5,14 +5,14 @@ title: courses
 ---
 
 <br>
-# Coursework
-## Spring 2019
+## Coursework
+### Spring 2019
 {% assign data = {{site.data.courses | where:"line2","Spring 2019"}} %}
 {% include list.html%}
-## Fall 2018
+### Fall 2018
 {% assign data = {{site.data.courses | where:"line2","Fall 2018"}} %}
 {% include list.html%}
-## Relevant Pre-Harvard Coursework
+### Relevant Pre-Harvard Coursework
 {% assign data = {{site.data.courses | where:"nonH","true"}} %}
 {% include list.html%}
 <br>
