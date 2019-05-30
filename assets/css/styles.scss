@@ -20,6 +20,8 @@
 
 img {
   border-radius: 65%;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 {
 
 @media (min-width:600px) {
   h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
